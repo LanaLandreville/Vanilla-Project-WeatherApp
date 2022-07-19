@@ -24,6 +24,13 @@ ul {
   margin: 0;
   padding: 0;
 }
+.weather-details {
+  list-style-type: none;
+  color: #878787;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -48,4 +55,9 @@ ul {
   font-size: 40px;
   font-weight: 400;
   line-height: 1;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -20px;
 }
