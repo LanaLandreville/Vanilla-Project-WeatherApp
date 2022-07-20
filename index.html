@@ -10,8 +10,27 @@
 <title>Weather App</title>
   </head>
   <body>
+     
        <div class="container">
         <div class="weather-app-wrapper">
+         
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-6">
+            <input
+            type="search" 
+            placeholder="type a city..."
+            class="form-control"
+            id="city-input"
+          autocomplete="off"
+            />
+          </div>
+          <div class="col-4">
+            <input type="submit" value="search"class="btn btn-primary w-80"/>
+            </div>
+            </div>
+          </form>
+          
             <div class="overview">
     <h1 id="city"></h1>
     <ul>
@@ -34,7 +53,8 @@
         
             <strong id="temperature"></strong>
             <span class="units">
-            ℃| <a href="#">℉</a> 
+              <a href="#" id="celcius-link" class="active"> ℃ </a>
+            | <a href="#" id="fahrenheit-link">℉</a> 
             </span>
                         <div class="col-6">
                 <div class="weather-details">
@@ -52,20 +72,7 @@
         </div>
         </div>
     </div>
-    <form>
-      <div class="row">
-        <div class="col-4">
-          <input
-            type="search"
-            placeholder="Enter a city..."
-            class="form-control search-input"
-          /><span><div class="container"></span>
-            <a href="" class="btn btn-primary"> Click here</a>
-        </div>
-        </div>
-      </div>
-    </div>
-    </form>
+   </div>
    <div class="weather-app"> Coded by Lana Landreville </div>
 
     <script src="src/app.js"></script>
