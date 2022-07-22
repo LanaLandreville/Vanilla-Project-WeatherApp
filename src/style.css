@@ -1,21 +1,27 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(
+      rgba(0, 0, 255, 0.5),
+      rgba(255, 255, 0, 0.5)
+    ),
+    url("https://static01.nyt.com/images/2014/12/11/technology/personaltech/11machin-illo/11machin-illo-articleLarge-v3.jpg?quality=75&auto=webp&disable=upscale");
 }
 
 h1 {
-  color: #878787;
+  color: #0a0909;
   display: block;
   font-size: 40px;
   font-weight: 100;
   line-height: 29px;
   margin-bottom: 0;
 }
+
 small {
-  opacity: 60%;
+  opacity: 80%;
 }
 li {
   list-style-type: none;
-  color: #878787;
+  color: #0a0909;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -30,7 +36,7 @@ ul {
 }
 .weather-details {
   list-style-type: none;
-  color: #878787;
+  color: #0a0909;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -45,6 +51,7 @@ ul {
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
+  opacity: 60%;
 }
 .overview {
   margin-bottom: 20px;
@@ -52,7 +59,7 @@ ul {
 .weather-temperature img {
   margin-right: 10px;
   height: 64px;
-  width: 64px;
+  width: 100px;
 }
 .weather-temperature strong {
   color: rgb(33, 33, 33);
@@ -83,10 +90,10 @@ ul {
 }
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .weather-forecast-temperature {
